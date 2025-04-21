@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import ivanarade1 from '../src/assets/ivanarade1.jpg';
+import ivanarade2 from '../src/assets/ivanarade2.jpg';
+
+
 
 const App = () => {
   const [clickedBoxes, setClickedBoxes] = useState(Array(9).fill(false));
@@ -108,7 +112,7 @@ const App = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="../src/assets/ivanarade1.jpg"
+                src={ivanarade1}
                   alt="Budapest 3"
                 />
                 <Carousel.Caption>
@@ -118,7 +122,7 @@ const App = () => {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="../src/assets/ivanarade2.jpg"
+                  src={ivanarade2}
                   alt="Budapest 3"
                 />
                 <Carousel.Caption>
