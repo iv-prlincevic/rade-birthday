@@ -105,6 +105,26 @@ const App = () => {
                   <h5>Magija noćnog Dunava</h5>
                 </Carousel.Caption>
               </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="../src/assets/ivanarade1.jpg"
+                  alt="Budapest 3"
+                />
+                <Carousel.Caption>
+                  <h5>Sijamo jace od Parlamenta ✨</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="../src/assets/ivanarade2.jpg"
+                  alt="Budapest 3"
+                />
+                <Carousel.Caption>
+                  <h5>Zivela ljubav!❤️</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
             </Carousel>
           </>
         )}

@@ -70,3 +70,8 @@
   border-radius: 0.5rem;
   padding: 1rem;
 }
+
+.d-block {
+  max-height: 500px;
+  object-fit: cover;
+}
