@@ -57,7 +57,7 @@ const App = () => {
                     key={index}
                   >
                     <Button
-                      className="gift-box"
+                      className="gift-box-button"
                       onClick={() => handleClick(index)}
                     >
                       {clickedBoxes[index]
@@ -73,7 +73,7 @@ const App = () => {
           </>
         ) : (
           <>
-            <h1 className="fw-bold display-3" style={{ color: "#FF6F00", fontSize:"50px", marginBottom:"30px" }}>
+            <h1 className="fw-bold display-3" style={{ color: "#FF6F00", marginBottom:"30px" }}>
             Bravo medo! Vreme je da spakuješ kofere... jer vodi te tvoja žena u Budimpeštu! ❤️
             </h1>
             <h3 className="mb-4">Vreme je za pauzu od koda i tastature. Sledeće linije pišemo u Budimpešti. ✨</h3>
